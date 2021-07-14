@@ -5,7 +5,7 @@ import axios from 'axios';
 
 export default function SearchInput(){
 
-    const url="https://tranquil-spire-80509.herokuapp.com/uploadAnswer";
+    const url="https://cors-anywhere.herokuapp.com/https://tranquil-spire-80509.herokuapp.com/uploadAnswer";
     const [decimalNumber,setDecimalNumber]=useState("");
     const [romanNumber,setRomanNumber] = useState("");
     const [error,setError] = useState("");
